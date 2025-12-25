@@ -1,0 +1,314 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instalacja 24/7</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="favicon.png.png">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      text-align: center;
+      padding: 20px;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    nav {
+      background-color: #f5ede6; /* beżowy kolor menu */
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #5a4636; /* brązowy kolor tekstu */
+      font-size: 16px;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 50px 20px;
+      font-size: 22px;
+      color: #333;
+    }
+
+    .features {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .feature {
+      width: 250px;
+    }
+
+    .icon {
+      font-size: 40px;
+      color: #a77b54; /* brązowy kolor ikonek */
+      margin-bottom: 10px;
+    }
+
+    .feature h3 {
+      margin: 10px 0 5px;
+      font-size: 18px;
+    }
+
+    .feature p {
+      font-size: 14px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    INSTALACJA 24/7
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Strona główna</a></li>
+      <li><a href="onas.html">O nas</a></li>
+      <li><a href="kontakt.html">Kontakt</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <h2>Instalacja 24/7 – Twoje bezpieczeństwo przez całą dobę.</h2>
+  </section>
+
+  <section class="features">
+    <div class="feature">
+      <div class="icon">🔒</div>
+      <h3>bezpieczeństwo <br> i niezawodność o każdej porze</h3>
+      <p>Nasza firma specjalizuje się w kompleksowych usługach instalacyjnych – elektrycznych. Dzięki całodobowej dostępności jesteśmy w stanie szybko reagować na każdą awarię i zapewnić profesjonalne wsparcie w nagłych sytuacjach.</p>
+    </div>
+
+    <div class="feature">
+      <div class="icon">🏷️ </div>
+      <h3>Co oferujemy?</h3>
+      <p>przegląd instalacji elektrycznych</p> 
+
+      <p>Szybki dojazd i pomoc 24 godziny na dobę, 7 dni w tygodniu</p>
+
+      <p>Nowoczesne rozwiązania gwarantujące bezpieczeństwo i wygodę</p>
+    </div>
+
+    <div class="feature">
+      <div class="icon">📢</div>
+      <h3>Dlaczego my?</h3>
+      <p>Stawiamy na profesjonalizm, niezawodność i indywidualne podejście do każdego klienta. Nasze wieloletnie doświadczenie oraz wyspecjalizowany zespół sprawiają, że możemy sprostać nawet najbardziej wymagającym zleceniom.</p>
+    </div>
+  </section>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontakt - Instalacja 24/7</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff;
+    }
+
+    header {
+      text-align: center;
+      padding-top: 20px;
+    }
+
+    header h1 {
+      font-size: 24px;
+      font-weight: 700;
+      color: #000;
+      margin: 0;
+    }
+
+    /* Pasek nawigacyjny – dokładnie jak na zdjęciu */
+    nav {
+      background-color: #f5ece4;
+      text-align: center;
+      padding: 12px 0;
+      margin-top: 15px;
+    }
+
+    nav a {
+      color: #4a3b32;
+      text-decoration: none;
+      margin: 0 25px;
+      font-size: 16px;
+      font-weight: normal;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* Sekcja kontaktu */
+    .contact-container {
+      max-width: 700px;
+      margin: 60px auto;
+      padding: 0 20px;
+    }
+
+    .contact-container h2 {
+      font-size: 24px;
+      font-weight: 700;
+      color: #222;
+      margin-bottom: 25px;
+    }
+
+    .contact-item {
+      display: flex;
+      align-items: center;
+      font-size: 16px;
+      margin-bottom: 12px;
+      color: #222;
+    }
+
+    .contact-item i {
+      color: #007bff;
+      margin-right: 10px;
+      font-style: normal;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>INSTALACJA 24/7</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Strona główna</a>
+    <a href="onas.html">O nas</a>
+    <a href="kontakt.html">Kontakt</a>
+  </nav>
+
+  <div class="contact-container">
+    <h2>KONTAKT</h2>
+    <div class="contact-item"><i>📧</i> przegladinstalacji24@gmail.com</div>
+    <div class="contact-item"><i>📞</i> +48 663 900 825</div>
+    <div class="contact-item"><i>📍</i> Ulica Michała Drzymały 8B Świętochłowice</div>
+  </div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>O nas - Instalacja 24/7</title>
+  <link rel="icon" type="image/png" href="favicon.png.png">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      text-align: center;
+      padding: 20px;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    nav {
+      background-color: #f5ede6; /* beżowy kolor menu */
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #5a4636; /* brązowy kolor tekstu */
+      font-size: 16px;
+    }
+
+    .content {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .content h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .content p {
+      font-size: 16px;
+      line-height: 1.6;
+      color: #444;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    INSTALACJA 24/7
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Strona główna</a></li>
+      <li><a href="onas.html">O nas</a></li>
+      <li><a href="kontakt.html">Kontakt</a></li>
+    </ul>
+  </nav>
+
+  <section class="content">
+    <h2>O nas</h2>
+    <p>
+      Jesteśmy zespołem, który wierzy, że sprawne instalacje to podstawa bezpieczeństwa i wygody w każdym domu czy firmie. Dlatego stworzyliśmy Instalacje 24/7 – markę, która łączy doświadczenie fachowców z pełną dostępnością o każdej porze.
+
+Nie działamy szablonowo – każde zlecenie traktujemy indywidualnie, bo wiemy, że każda instalacja i każdy klient ma inne potrzeby. Montujemy, naprawiamy i modernizujemy instalacje elektrycznych, a gdy zdarzy się awaria – jesteśmy na miejscu tak szybko, jak to możliwe.
+    </p>
+    <p>
+     <img src="dscfsdcdc.png" alt="Przegląd instalacji 24/7" width="300">
+    </p>
+  </section>
+</body>
+</html>
+
+
+
+
